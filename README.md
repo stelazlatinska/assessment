@@ -18,22 +18,23 @@ Functional Test cases:
 Unit Tests:
 
 Alert Tests:
-
-1. renders children - this test is to check if the children of the alert are rendered. It finds the div alert element and checks the text of the element to be as the text given to the “children” const
-2. sets proper className - checks if the alert has class - "alert-warning”
+- renders children - this test is to check if the children of the alert are rendered. It finds the div alert element and checks the text of the element to be as the text given to the “children” const
+- sets proper className - checks if the alert has class - "alert-warning”
 
 Loading Tests:
-
-1. renders a div with loading text - finds the Loading element and checks its text to be “Loading …”
+- renders a div with loading text - finds the Loading element and checks its text to be “Loading …”
 
 GalleryList Tests:
-
-1. renders two GalleryListItems - checks the gallery list items to contain two items  by checking the length of the “items” array of objects 
+- renders two GalleryListItems - checks the gallery list items to contain two items  by checking the length of the “items” array of objects 
 
 App Tests:
+- renders without crashing - checks if the app renders without crashing  
 
-1. renders without crashing - checks if the app renders without crashing  
+Alert Reducers: 
+- The tests check the different alert states - success, alert/danger and clear
 
-Alert Reducers: The tests check the different alert states - success, alert/danger and clear
+Unit Test that could be added:
+- Write tests for the Containers in the app - Gallery, Layout, OrderBy and TagInput containers
+- Test to check if the Gallery renders a div with text “ You can search with multiple tags"
 
 
