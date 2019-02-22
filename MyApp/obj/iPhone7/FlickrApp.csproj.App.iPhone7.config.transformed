@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <section name="specFlow" type="TechTalk.SpecFlow.Configuration.ConfigurationSectionHandler, TechTalk.SpecFlow"/>
+        <section name="fourth" type="Fourth.Automation.Framework.Configuration.FourthSection, Fourth.Automation.Framework.Core"/>
+    </configSections>
+    <appSettings>
+        <add key="Website.Url" value="https://fourth-qa.herokuapp.com/"/>
+        <add key="" value=""/>
+        <add key="" value=""/>
+    </appSettings>
+    <runtime>
+        <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+            <dependentAssembly>
+                <assemblyIdentity name="Castle.Core" publicKeyToken="407dd0808d44fbdc" culture="neutral"/>
+                <bindingRedirect oldVersion="0.0.0.0-4.0.0.0" newVersion="4.0.0.0"/>
+            </dependentAssembly>
+            <dependentAssembly>
+                <assemblyIdentity name="TechTalk.SpecFlow" publicKeyToken="0778194805d6db41" culture="neutral"/>
+                <bindingRedirect oldVersion="0.0.0.0-2.0.0.0" newVersion="2.0.0.0"/>
+            </dependentAssembly>
+        </assemblyBinding>
+    </runtime>
+    <specFlow>
+        <stepAssemblies>
+            <stepAssembly assembly="Fourth.Automation.Framework.Core"/>
+            <stepAssembly assembly="Fourth.Automation.SpecFlow.Extensions"/>
+        </stepAssemblies>
+        <plugins>
+            <add name="SpecFlow.Autofac" type="Runtime"/>
+        </plugins>
+        <!-- For additional details on SpecFlow configuration options see http://go.specflow.org/doc-config -->
+    </specFlow>
+    <fourth driverType="Chrome" serverUrl="">
+    	<timeout driverCommands="00:00:59" defaultWait="00:00:59"/>
+    	<reporting keepScreenshot="false" takeScreenshotOnError="true"/>
+    	<mobile deviceName="iPhone 6/7/8"/>
+    	<capabilities>
+    		<add key="--start-maximized"/>
+    	</capabilities>
+    </fourth>
+</configuration>

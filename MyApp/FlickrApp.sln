@@ -1,0 +1,26 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlickrApp", "FlickrApp.csproj", "{0665A112-E3F1-48EC-93BA-2B11B85025A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Chrome|Any CPU = Chrome|Any CPU
+		GalaxyS5|Any CPU = GalaxyS5|Any CPU
+		iPhone7|Any CPU = iPhone7|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0665A112-E3F1-48EC-93BA-2B11B85025A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0665A112-E3F1-48EC-93BA-2B11B85025A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0665A112-E3F1-48EC-93BA-2B11B85025A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0665A112-E3F1-48EC-93BA-2B11B85025A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0665A112-E3F1-48EC-93BA-2B11B85025A6}.Chrome|Any CPU.ActiveCfg = Chrome|Any CPU
+		{0665A112-E3F1-48EC-93BA-2B11B85025A6}.Chrome|Any CPU.Build.0 = Chrome|Any CPU
+		{0665A112-E3F1-48EC-93BA-2B11B85025A6}.GalaxyS5|Any CPU.ActiveCfg = GalaxyS5|Any CPU
+		{0665A112-E3F1-48EC-93BA-2B11B85025A6}.GalaxyS5|Any CPU.Build.0 = GalaxyS5|Any CPU
+		{0665A112-E3F1-48EC-93BA-2B11B85025A6}.iPhone7|Any CPU.ActiveCfg = iPhone7|Any CPU
+		{0665A112-E3F1-48EC-93BA-2B11B85025A6}.iPhone7|Any CPU.Build.0 = iPhone7|Any CPU
+	EndGlobalSection
+EndGlobal

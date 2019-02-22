@@ -1,0 +1,18 @@
+﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.MyApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyApp/FeaturesAndSteps/SearchFeature/Search.feature">
+    <Files>
+      <File FileName="MyApp/FeaturesAndSteps/SearchFeature/Search.feature" Line="20" Column="9" />
+      <File FileName="MyApp/FeaturesAndSteps/SearchFeature/SearchSteps.cs" Line="59" Column="1" />
+      <File FileName="MyApp/Support/ContainerConfig.cs" Line="7" Column="16" />
+      <File FileName="MyApp/Support/Hooks.cs" Line="4" Column="16" />
+      <File FileName="MyApp/FeaturesAndSteps/SearchFeature/Search.feature.cs" Line="13" Column="16" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Chrome" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
