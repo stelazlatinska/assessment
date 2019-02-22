@@ -1,11 +1,11 @@
 ﻿@smoke
 Feature: Search
-	In order to user Flickr Gallery 
+	In order to use Flickr Gallery 
 	As a User
 	I want to be able to search for images
 
 Scenario: Search field is present on the page
-	Then The search field is present
+    Then The search field is present
     
 Scenario: Search for images with one tag
     When Search for images with one tag
