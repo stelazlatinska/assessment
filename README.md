@@ -3,16 +3,16 @@ Note: I was having issues with appium that is why I have configured the tests fo
 
 Functional Test cases:
 
-Search field is present on the page
-Search for existing image tag
-Search for nonexisting image tag
+- Search field is present on the page;
+- Search for existing image tag;
+- Search for nonexisting image tag
 
 //TODO 
-Order images by Published
-Order images by Date taken
-Clear search and check if the results are back 
-Search for more than one tag
-Download should open the image in a new tab
+- Order images by Published;
+- Order images by Date taken;
+- Clear search and check if the results are back;
+- Search for more than one tag;
+- Download should open the image in a new tab
 
 
 Unit Tests:
