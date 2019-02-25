@@ -3,6 +3,9 @@ Feature: Search
 	In order to use Flickr Gallery 
 	As a User
 	I want to be able to search for images
+	
+Background:
+    Given Flickr page is opened  
 
 Scenario: Search field is present on the page
     Then The search field is present
